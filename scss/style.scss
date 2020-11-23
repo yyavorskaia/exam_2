@@ -235,7 +235,7 @@ svg {
     margin-bottom: 20px;
 
     font-family: 'Gotham', 'Arial', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     color: #ffffff;
     text-align: center;
@@ -259,7 +259,7 @@ svg {
 
     margin: 0;
     padding: 0;
-    padding: 135px 0 130px 0;
+    padding: 60px 0 140px 0;
 
     list-style: none;
   }
@@ -387,9 +387,10 @@ svg {
     &::before {
       content: "";
       position: absolute;
-      top: -55%;
-      left: 41%;
-
+      top: -50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
       width: 100px;
       height: 1px;
 
@@ -411,7 +412,7 @@ svg {
   }
 
   &__title-wrapper-two {
-    padding: 10.625rem 0 10.625rem 0;
+    padding: 50px 0 50px 0;
   }
 
   &__title-two {
@@ -428,9 +429,10 @@ svg {
     &::before {
       content: "";
       position: absolute;
-      top: -70%;
-      left: 41%;
-
+      top: -60%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
       width: 100px;
       height: 1px;
 
@@ -439,7 +441,7 @@ svg {
   }
 
   &__title-wrapper-three {
-    padding: 11.25rem 0 5.625rem 0;
+    padding: 50px 0 50px 0;
   }
 
   &__title-three {
@@ -456,8 +458,9 @@ svg {
       content: "";
       position: absolute;
       top: -70%;
-      left: 41%;
-
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
       width: 100px;
       height: 1px;
 
@@ -579,6 +582,10 @@ svg {
     height: 100%;
   }
 
+  &__image {
+    width: 290px;
+  }
+
   &__item--trade-bg {
     background-color: #55b7ff;
   }
@@ -604,7 +611,6 @@ svg {
     position: absolute;
     top: 33%;
     z-index: 10;
-
 
     width: 40px;
     height: 40px;
@@ -834,9 +840,11 @@ svg {
       content: "";
       position: absolute;
       top: -40%;
-      left: 42%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
 
-      width: 100px;
+      width: 95px;
       height: 1px;
 
       background-color: #2c4058;
@@ -1126,6 +1134,10 @@ svg {
   }
 
   .intro {
+    &__title {
+      font-size: 60px;
+    }
+
     &__slider-list {
       padding: 5rem 0 5rem 0;
     }
@@ -1140,21 +1152,10 @@ svg {
     }
 
     &__slider-list .slick-dots li {
-      margin: 0;
+      margin-right: 25px;
       margin-bottom: 1.875rem;
 
       list-style: none;
-    }
-  }
-
-  .page-main {
-
-    &__title-one,
-    &__title-two,
-    &__title-three {
-      &::before {
-        left: 45%;
-      }
     }
   }
 
@@ -1379,10 +1380,6 @@ svg {
 
     &__title-one {
       font-size: 44px;
-
-      &::before {
-        left: 46%;
-      }
     }
 
     &__title-wrapper-two {
@@ -1391,10 +1388,6 @@ svg {
 
     &__title-two {
       font-size: 44px;
-
-      &::before {
-        left: 46%;
-      }
     }
 
     &__title-wrapper-three {
@@ -1407,10 +1400,6 @@ svg {
       font-family: 'GothamMedium', 'Arial', sans-serif;
       font-size: 44px;
       font-weight: 500;
-
-      &::before {
-        left: 46%;
-      }
     }
   }
 
